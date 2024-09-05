@@ -16,10 +16,10 @@ function App() {
     <div style={{ width: '100%', height: '100%' }}>
       <Header/>
       <Hero/>
+      <ViveProposito />
       <Propositos/>
       <Transicion />
       <NuestroProposito />
-      <ViveProposito />
       <Rutas />
       <PropositoEnRuta />
       <Clientes />

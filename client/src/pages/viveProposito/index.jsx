@@ -55,7 +55,7 @@ const ViveProposito = () => {
                     <h3 ref={mobileRef1}>{t('viveProposito.bajada_vivo')}</h3>
                 </div>
                 <div className={ styles.cardsContainer }>
-                    <div ref={desktopRef2} className={styles.cardsRow}>
+                    <div ref={desktopRef1} className={styles.cardsRow}>
                         <motion.div style={ {opacity: opacity1, y: y1 }} className={ styles.card }>
                             <div className={ styles.imagenes }>
                                 <div>
@@ -90,7 +90,7 @@ const ViveProposito = () => {
                             <div className={ styles.imagenes }>
                                 <div>
                                     <iframe src="https://player.vimeo.com/video/1005592327?h=7fca11688e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-                                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
                                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
                                     title="ANDINA - VIVE PROPÓSITO - Cesar Britos &amp; Nicolas Solis">
                                     </iframe>
