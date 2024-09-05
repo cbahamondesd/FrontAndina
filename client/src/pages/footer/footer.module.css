@@ -1,0 +1,159 @@
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #FAFAFA;
+}
+
+.curvaWeb{
+    display: flex;
+    height: 7.5rem;
+    width: 100%;
+    z-index: 2;
+}
+
+.fondoGris{
+    height: 7.5rem;   
+    background-color: #F0F0F0;;
+    position: relative;
+    z-index: 1;
+}
+
+.curvaMovil{
+    display: none;
+}
+
+.head{
+    display: flex;
+    padding-top: 4.5rem;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.logos{
+    display: inline-flex;
+    height: auto;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.8rem;
+    flex-shrink: 0;
+}
+
+#logoCocaCola{
+    width: 7rem;
+}
+#logoAndina{
+    width: 5.6rem;
+}
+
+.banderas{
+    display: flex;
+    height: 1rem;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.banderas img{
+    width: 1.5rem;
+    height: auto;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 53rem;
+    height: 30rem;
+    overflow: hidden;
+}
+
+.imagen {
+    max-width: 100%;
+    position: absolute;
+    left: -5%;
+    overflow: hidden;
+}
+
+.pin{
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    margin: 0 0 20rem 10rem;
+}
+
+.barra{
+    align-self: stretch;
+    width: 100%;
+    height: 0.5rem;
+    background-color: #E30008;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 768px) { 
+    .curvaWeb{
+        display: none;
+    }
+
+    .curvaMovil{
+        display: inline;
+        width: 100%;
+    }
+
+    .fondoGris{
+        height: 50px;
+    }
+
+    #logoCocaCola{
+        width: 9.5rem;
+    }
+    #logoAndina{
+        width: 8rem;
+    }
+
+    .banderas{
+        display: flex;
+        height: 2rem;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .banderas img{
+        width: 2.5rem;
+    }
+    .imgContainer {
+        height: 20rem;
+    }
+    
+    .imagen{
+        width: 45rem;
+        left: 5%;
+    }
+
+    #camion{
+        left: 20%;
+        height: 17rem;
+        width: auto;
+    }
+    #nube1, #nube2, #nube3{
+        width: 30rem;
+        left: 20%;
+    }
+
+    .pin{
+        width: 4rem;
+        height: auto;
+        top:30%;
+        left: -18%;
+    }
+
+    .footer {
+        padding: 2rem 0;
+    }
+};

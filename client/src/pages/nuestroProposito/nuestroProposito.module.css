@@ -1,0 +1,187 @@
+
+.nuestroProposito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+.curvaMovil, .imagenMovil {
+    display: none;
+}
+
+.seccionRoja{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 7rem 7rem 7rem;
+    gap: 2rem;
+    background-color: #E41E1E;
+    width: 100%;
+}
+
+.seccionRoja h2 {
+    font-size: 2rem;
+    color: #FFF;
+}
+.web{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ladoIzquierdo{
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.ladoDerecho{
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.izqMovil, .derMovil{
+    display: none;
+}
+
+.centro{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.centro img{
+    height: 30rem;
+    width: 23rem;
+    border-radius: 62.5rem;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.centro svg{
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.centro button{
+    background-color: 'none';
+}
+
+.extra{
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+    background-color: green;
+    z-index: 1;
+    object-fit: contain;
+}
+
+.camion{
+    max-height: 40%;
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+}
+
+
+.modal {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    right: 'auto';
+    bottom: 'auto';
+    width: 30%;
+    height: 50%;
+    background-color: #000;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modalContent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .curvaWeb, .centro {
+        display: none;
+    }
+    .curvaMovil{
+        display: block;
+    }
+    .seccionRoja{
+        height: 40rem;
+        gap: 1.5rem;
+    }
+    .web{
+        gap: 1rem;
+    }
+    .seccionRoja h2{
+        font-size: 1.8rem;
+    }
+    .imagenMovil{
+        display: flex;
+        width: 88%;
+        height: 100%;
+        justify-content: center;
+        position: relative;
+    }
+    .imagenMovil img{
+        display: flex;
+        height: 30rem;
+        width: 20rem;
+        border-radius: 62.5rem;
+        object-fit: cover;
+        z-index: 1;
+        position: absolute;
+    }
+    .imagenMovil svg{
+        display: flex;
+        bottom: 48%;
+        border-radius: 60%;
+        position: absolute;
+        z-index: 2;
+    }
+    .centro button{
+        background-color: 'none';
+    }
+
+    .camion{
+        max-width: 100%;
+        bottom: 5%;
+        right: 80%;
+    }
+
+}
