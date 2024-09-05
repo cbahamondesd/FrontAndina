@@ -99,13 +99,23 @@
     left: 5%;
     right: 'auto';
     bottom: 'auto';
-    width: 30%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
     background-color: #000;
-    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+    z-index: 999;
+    border: none;
+    outline: none;
+}
+
+.modalContent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
 }
 
 .overlay {
@@ -117,21 +127,39 @@
     background-color: rgba(0, 0, 0, 0.75);
 }
 
-.modalContent {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
 .closeButton {
     position: absolute;
-    top: 10px;
+    top: -5%;
     right: 10px;
+    width: 15rem;
+    height: 2rem;
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
+    font-weight: 700;
     cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.closeButton p{
+    margin-right: 0.5rem;
+}
+.circulo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #F6F7FB;
+    width: 1.5rem;
+    height: 1.5rem;
+    z-index: 1;
+}
+.circulo svg{
+    width: 0.7rem;
+    height: inherit;
+    z-index: 5;
 }
 
 @media (max-width: 768px) {
@@ -182,6 +210,13 @@
         max-width: 100%;
         bottom: 5%;
         right: 80%;
+    }
+
+    .modal{
+        height: 30%;
+    }
+    .closeButton {
+        top: -10%;
     }
 
 }

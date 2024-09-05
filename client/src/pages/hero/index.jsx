@@ -34,11 +34,6 @@ const Hero = () => {
         offset: ["center", "end start"]
     });
 
-    useMotionValueEvent(scrollYProgress, "change",
-        (latest) => {
-            console.log(latest)
-        });
-
         const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
 
         const y1 = useTransform(scrollYProgress, [0, 1], [0, -800]);

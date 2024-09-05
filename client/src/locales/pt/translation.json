@@ -1,7 +1,7 @@
 {
     "hero": {
         "bajada_hero": "Reúna-se para todo canto para refrescar momentos e oportunidades abertas.",
-        "boton_reproducir": "Reproduzir video"
+        "boton_reproducir": "Reproduza o vídeo da semana"
     },
     "propositos": {
         "creando_titulo": "Criando nosso propósito...",
@@ -20,7 +20,8 @@
         "derecha": "servir"
     },
     "nuestroProposito": {
-        "nuestro": "Nosso"
+        "nuestro": "Nosso",
+        "cerrar": "Fechar"
     },
     "viveProposito": {
         "titulo": "Propósito Vivo",

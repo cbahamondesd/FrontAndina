@@ -1,7 +1,7 @@
 {
     "hero": {
         "bajada_hero": "Llegar juntos a todos los rincones para refrescar momentos y abrir oportunidades.",
-        "boton_reproducir": "Reproducir video"
+        "boton_reproducir": "Reproduce el video de la semana"
     },
     "propositos": {
         "creando_titulo": "Creando nuestro propósito...",
@@ -21,7 +21,8 @@
     },
     "nuestroProposito": {
         "nuestro": "Nuestro",
-        "proposito": "propósito"
+        "proposito": "propósito",
+        "cerrar": "Cerrar"
     },
     "viveProposito": {
         "titulo": "Vive Propósito",
