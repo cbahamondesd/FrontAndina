@@ -8,9 +8,9 @@
         "cardOne_titulo": "¿Qué es un propósito organizacional?",
         "cardOne_texto": "Es la razón de existir de una empresa. Eso que entrega sentido a lo que hacemos en nuestro día a día. Apunta a responder a la pregunta ¿Para qué hacemos lo que hacemos?.",
         "cardTwo_titulo": "¿Cómo descubrimos nuestro propósito?",
-        "cardTwo_texto": "Fue un proceso participativo que incluyó a más de 1.000 personas en los 4 países en los que andina está presente. Se incluyó también a clientes y otros stakeholders claves por medio de entrevistas, focus groups y encuestas.",
+        "cardTwo_texto": "Fue un proceso participativo que incluyó a más de 1.000 personas en los 4 países en los que Andina está presente. Se incluyó también a clientes y otros stakeholders clave por medio de entrevistas, focus groups y encuestas.",
         "cardThree_titulo": "¿Por qué levantamos nuestro propósito ahora y no antes?",
-        "cardThree_texto": "Este esfuerzo llega para terminar de consolidarnos como una sola gran compañía presente en 4 países, que ya tiene definida su cultura compartida, una estrategia y ahora un único propósito para todos.",
+        "cardThree_texto": "Este esfuerzo llega para terminar de consolidarnos como una sola gran compañía, presente en 4 países, que ya tiene definida su cultura compartida, una estrategia y ahora, un único propósito para todos.",
         "cardFour_titulo": "¿Cómo se relaciona esto con nuestra visión y valores?",
         "cardFour_texto": "El propósito da sentido a lo que hacemos y a lo que aspiramos colectivamente. A través de él se orientan las definiciones estratégicas que quedan explícitas en la visión y que se ejecutan a través de nuestros valores."
         
@@ -41,7 +41,7 @@
     },
     "rutas": {
         "titulo": "Nuestras rutas",
-        "bajada_rutas": "Nuestro propósito nos conecta con una ruta al pasado el presente y el futuro revisa la galería y descubramos juntos cuáles son los pilares sobre los que construimos nuestro Propósito.",
+        "bajada_rutas": "Nuestro propósito nos conecta con una ruta al pasado, el presente y el futuro. Revisa la galería y descubramos juntos cuáles son los pilares sobre los que construimos nuestro Propósito.",
         "comunidades": "Avanzamos juntos, siempre de la mano de en nuestras comunidades. Aspiramos a generar valor social y ser agentes que abran oportunidades de cambio positivo.",
         "transformacion-titulo": "Transformación digital",
         "transformacion-texto": "Los avances en el mundo digital abren nuevas rutas para llegar juntos a nuevos rincones y encontrar nuevas maneras de refrescar.",
@@ -54,7 +54,7 @@
         "tech-texto": "La tecnología impulsa nos ayuda a conectar y refrescar cada rincón, y creando nuevas oportunidades que reflejan nuestro compromiso con un futuro más inclusivo y sostenible.",
         "multi-titulo": "Multicategoría",
         "multi-texto": "Aspiramos a un portafolio amplio y tan diverso con nuestros clientes y consumidores, queremos estar presentes y poder refrescar todas las ocasiones de alegría.",
-        "talento-texto": "Las personas son el elemento fundamental de nuestra fórmula secreta su compromiso desarrollo y cuidado están en el centro de nuestra gestión."
+        "talento-texto": "Las personas son el elemento fundamental de nuestra fórmula secreta su compromiso, desarrollo y cuidado están en el centro de nuestra gestión."
     },
     "propositoEnRuta": {
         "titulo": "Propósito en Ruta",
