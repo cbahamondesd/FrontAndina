@@ -70,7 +70,7 @@ const Hero = () => {
                             className={styles.modal}
                             overlayClassName={styles.overlay}>
                             <div className={styles.modalContent}>
-                                <iframe src="https://player.vimeo.com/video/851514063?share=copy?autoplay=1&amp;byline=0&amp;title=0&amp;portrait=0&amp;color=e30008"
+                                <iframe src="https://player.vimeo.com/video/1001600865?h=63fff6dd35&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                                     width="100%" 
                                     height="100%" 
                                     allow="autoplay" 
