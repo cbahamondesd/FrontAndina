@@ -40,9 +40,9 @@ const ViveProposito = () => {
 
     const opacity2 = useTransform(scrollYProgress2, [0, 1], [0, 1]);
     const y5 = useTransform(scrollYProgress2, [0, 1], [150, 0]);
-    const y6 = useTransform(scrollYProgress2, [0, 1], [300, 0]);
-    const y7 = useTransform(scrollYProgress2, [0, 1], [450, 0]);
-    const y8 = useTransform(scrollYProgress2, [0, 1], [600, 0]);
+    const y6 = useTransform(scrollYProgress2, [0, 1], [200, 0]);
+    const y7 = useTransform(scrollYProgress2, [0, 1], [250, 0]);
+    const y8 = useTransform(scrollYProgress2, [0, 1], [300, 0]);
 
     
     return(
@@ -106,7 +106,7 @@ const ViveProposito = () => {
                             <div className={ styles.imagenes }>
                                 <div>
                                     <iframe
-                                        src="https://player.vimeo.com/video/1005593067?h=151ed40c3e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                        src="https://player.vimeo.com/video/1006948006?h=a833bc0b09&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                                         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
                                         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
                                     </iframe>
@@ -123,7 +123,7 @@ const ViveProposito = () => {
                             <div className={ styles.imagenes }>
                                 <div>
                                     <iframe
-                                        src="https://player.vimeo.com/video/847129186?share=copy?autoplay=1&amp;byline=0&amp;title=0&amp;portrait=0&amp;color=e30008"
+                                        src="https://player.vimeo.com/video/1006948542?h=216fd85f46&amp;byline=0&amp;title=0&amp;portrait=0&amp;color=e30008"
                                         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
                                         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
                                     </iframe>
@@ -138,7 +138,7 @@ const ViveProposito = () => {
                             <div className={ styles.imagenes }>
                                 <div>
                                     <iframe
-                                        src="https://player.vimeo.com/video/860383265?share=copy?autoplay=1&amp;byline=0&amp;title=0&amp;portrait=0&amp;color=e30008"
+                                        src="https://player.vimeo.com/video/1005593067?h=151ed40c3e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                                         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
                                         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
                                     </iframe>
