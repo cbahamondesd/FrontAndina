@@ -1,7 +1,8 @@
 {
     "hero": {
         "bajada_hero": "Llegar juntos a todos los rincones para refrescar momentos y abrir oportunidades.",
-        "boton_reproducir": "Reproduce el video de la semana"
+        "boton_reproducir": "Reproduce el video de la semana",
+        "titimage":"tit_esp.png"
     },
     "propositos": {
         "creando_titulo": "Creando nuestro propósito...",

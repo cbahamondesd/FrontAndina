@@ -1,7 +1,8 @@
 {
     "hero": {
         "bajada_hero": "Reúna-se para todo canto para refrescar momentos e oportunidades abertas.",
-        "boton_reproducir": "Reproduza o vídeo da semana"
+        "boton_reproducir": "Reproduza o vídeo da semana",
+        "titimage":"tit_por.png"
     },
     "propositos": {
         "creando_titulo": "Criando nosso propósito...",

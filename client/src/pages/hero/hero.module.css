@@ -12,18 +12,27 @@
 
 .box {
     display: flex;
-    padding: 6rem 10rem;
+    padding: 0rem 10rem 8rem 10rem;
+    height: 40rem;
 }  
 
 .text{
     flex:7;
     display: flex;
     flex-direction: column;
+    margin-left: 8rem;
+}
+
+.text img{
+    width: 40rem;
+    height: 40rem;
 }
 
 .img{
     flex: 5;
     position: relative;
+    margin-top: 16rem;
+    margin-right: 5rem;
 }
 
 .img img {
@@ -68,7 +77,7 @@
     width: 55%;
     border-radius: 0.5rem;
     background-color: #e41e1e;
-    height: 3rem;
+    height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +165,7 @@
     .box {
         flex-direction: column;
         padding: 0;
-        height: 52rem;
+        height: 78rem;
     }
     .img {
         order: -2;
@@ -170,18 +179,19 @@
     }    
     .text{
         background-color: #FAFAFA;
-        padding: 2rem;
-        z-index: 3;
+        margin-left: 0rem;
+        flex:0;
     }
+
     .text h1{
         margin: 1.5rem 0;
         font-size: 2rem;
         line-height: 1.2;
-        
         max-width: 500px;
     }
-    .text, .img {
-        flex-basis: 100%;
+    .text img{
+        width: 18rem;
+        height: 18rem;
     }
     .curvaMovil{
         display: block;
@@ -191,9 +201,9 @@
         height: 100;
     }
     .buttonprimarydefault{
-        margin-bottom: 2rem;
-        justify-self: center;
-        max-width: 500px;
+        padding: 1rem;
+        width: 90%;
+        height: 10%;
     }
     .reproducirvideo {
         font-size: 1.2rem;
@@ -260,6 +270,7 @@
     }
     .buttonprimarydefault{
         width: 100%;
+        height: 10%;
         margin-bottom: 2rem;
     }
     .reproducirvideo {
@@ -282,7 +293,7 @@
         top: -65%;
     }
     .box {
-        padding:10rem;
-        height: 20rem;
+        padding: 0rem 10rem 8rem 10rem;
+        height: 40rem;
     }
 }
