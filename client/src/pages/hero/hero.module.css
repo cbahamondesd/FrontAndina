@@ -74,7 +74,7 @@
 }
 
 .buttonprimarydefault {
-    width: 55%;
+    width: 85%;
     border-radius: 0.5rem;
     background-color: #e41e1e;
     height: 2.5rem;
@@ -87,7 +87,7 @@
 }
 
 .reproducirvideo {
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.4rem;
     color: #f6f9fc;
     text-align: center;
@@ -165,11 +165,14 @@
     .box {
         flex-direction: column;
         padding: 0;
-        height: 78rem;
+        height: 48rem;
     }
+    
     .img {
         order: -2;
         padding: 0rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
     }
     .img img {
         top: -10%;
@@ -177,6 +180,7 @@
         width: 120%;
         scale: 1;
     }    
+    
     .text{
         background-color: #FAFAFA;
         margin-left: 0rem;
@@ -202,8 +206,8 @@
     }
     .buttonprimarydefault{
         padding: 1rem;
-        width: 90%;
-        height: 10%;
+        width: 95%;
+        height: 2.8rem;
     }
     .reproducirvideo {
         font-size: 1.2rem;
