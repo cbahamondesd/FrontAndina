@@ -23,11 +23,6 @@
     margin-left: 8rem;
 }
 
-.text img{
-    width: 40rem;
-    height: 40rem;
-}
-
 .img{
     flex: 5;
     position: relative;
@@ -171,7 +166,7 @@
     .img {
         order: -2;
         padding: 0rem;
-        margin-top: 3rem;
+        margin-top: 1.5rem;
         margin-right: 1rem;
     }
     .img img {
