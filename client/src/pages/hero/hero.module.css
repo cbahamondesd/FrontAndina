@@ -21,7 +21,6 @@
     display: flex;
     flex-direction: column;
     margin-left: 8rem;
-    background-color: #FFF;
     z-index: 2000;
 }
 .text img{
@@ -242,7 +241,7 @@
     .box {
         flex-direction: column;
         padding: 0;
-        height: 58rem;
+        height: 78rem;
     }
     .img {
         order: -2;
@@ -250,7 +249,7 @@
         object-fit: contain;
     }
     .img img {
-        top: -20%;
+        top: -150%;
         right: 15%;
         width: 70%;
     }    
@@ -258,6 +257,7 @@
         background-color: #FAFAFA;
         padding: 2rem;
         z-index: 3;
+        margin-left: 0rem;
     }
     .text h1{
         margin: 1.5rem 0;
@@ -271,19 +271,19 @@
         display: block;
         z-index: 3;
     }
+    .curvaDesktop{
+        display: none;
+    }
     .heroContainer svg{
         height: 100;
     }
     .buttonprimarydefault{
         width: 100%;
-        height: 10%;
+        height: 100%;
         margin-bottom: 2rem;
     }
     .reproducirvideo {
         font-size: 1.2rem;
-    }
-    .curvaDesktop{
-        display: none;
     }
     .modal{
         height: 30%;
