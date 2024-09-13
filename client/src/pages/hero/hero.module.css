@@ -21,6 +21,12 @@
     display: flex;
     flex-direction: column;
     margin-left: 8rem;
+    background-color: #FFF;
+    z-index: 2000;
+}
+.text img{
+    width: auto;
+    height: 40rem;
 }
 
 .img{
@@ -32,9 +38,9 @@
 
 .img img {
     position: absolute;
-    width: 130%;
-    right: -10%;
-    top: -30%;
+    width: 250%;
+    right: -70%;
+    top: -60%;
     z-index: 2;
     max-width: 650px;
 }
@@ -160,7 +166,7 @@
     .box {
         flex-direction: column;
         padding: 0;
-        height: 48rem;
+        height: 68rem;
     }
     
     .img {
@@ -179,6 +185,7 @@
     .text{
         background-color: #FAFAFA;
         margin-left: 0rem;
+        padding-left: 1rem;
         flex:0;
     }
 
@@ -189,8 +196,8 @@
         max-width: 500px;
     }
     .text img{
-        width: 18rem;
-        height: 18rem;
+        width: 28rem;
+        height: auto;
     }
     .curvaMovil{
         display: block;
