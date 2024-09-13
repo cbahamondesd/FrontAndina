@@ -31,7 +31,7 @@ const Hero = () => {
     
     const { scrollYProgress } = useScroll({
         target: targetRef,
-        offset: ["center", "end start"]
+        offset: ["start 20%", "end start"]
     });
 
         const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
@@ -48,21 +48,21 @@ const Hero = () => {
 
         <section className={ styles.heroContainer }>
                 <div className={ styles.box }>
-                <svg ref={mobileRef} xmlns="http://www.w3.org/2000/svg" className={ styles.curvaMovil } height="100" viewBox="0 0 375 50" fill="none" preserveAspectRatio='none'>
-                    <path d="M321.214 9.0002e-06L377.5 1.19209e-05L377.5 763L220.281 706.612C141.464 678.344 53.3782 700.639 -2.49999 763L-2.15564 4.5692e-05L53.6378 0.569653C72.2558 0.759727 90.4656 6.40377 105.946 16.7484C154.885 49.4505 218.923 49.3852 267.676 16.407C283.483 5.71441 302.13 6.58906e-06 321.214 9.0002e-06Z" fill="#FAFAFA"/>
-                </svg>
+                    <svg ref={mobileRef} xmlns="http://www.w3.org/2000/svg" className={ styles.curvaMovil } height="100" viewBox="0 0 375 50" fill="none" preserveAspectRatio='none'>
+                        <path d="M321.214 9.0002e-06L377.5 1.19209e-05L377.5 763L220.281 706.612C141.464 678.344 53.3782 700.639 -2.49999 763L-2.15564 4.5692e-05L53.6378 0.569653C72.2558 0.759727 90.4656 6.40377 105.946 16.7484C154.885 49.4505 218.923 49.3852 267.676 16.407C283.483 5.71441 302.13 6.58906e-06 321.214 9.0002e-06Z" fill="#FAFAFA"/>
+                    </svg>
                     <div className={ styles.text }>
-                        <motion.h3 style={{ opacity, y: y1 }}>Propósito Andina</motion.h3>
-                        <motion.div style={{ opacity, y: y2 }}>
+                        <h3 style={{ opacity, y: y1 }}>Propósito Andina</h3>
+                        <div style={{ opacity, y: y2 }}>
                             <img src={t('hero.titimage')} alt="Llegar juntos a todos los rincones para refrescar momentos y abrir oportunidades" />
-                        </motion.div>
+                        </div>
                         <div>
-                        <motion.div style={{ opacity, y: y3}} className={ styles.buttonprimarydefault }>
+                        <div style={{ opacity, y: y3}} className={ styles.buttonprimarydefault }>
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 18 18" fill="none">
                                 <path d="M7.75166 0.00376254C3.53082 0.132577 0.132613 3.53079 0.00379918 7.75162C-0.136981 12.3465 3.65354 16.1365 8.24838 15.9962C12.4692 15.8676 15.8674 12.4694 15.9962 8.24858C16.1363 3.6535 12.3465 -0.136314 7.75166 0.00376254ZM5.56182 10.7404V5.25981C5.56173 5.13347 5.59493 5.00934 5.65807 4.89991C5.72121 4.79048 5.81206 4.69962 5.92148 4.63647C6.03089 4.57331 6.15502 4.5401 6.28136 4.54017C6.40769 4.54023 6.53178 4.57358 6.64113 4.63685L11.3876 7.37715C11.4969 7.44026 11.5877 7.53105 11.6508 7.64038C11.7139 7.74971 11.7472 7.87374 11.7472 7.99998C11.7472 8.12623 11.7139 8.25026 11.6508 8.35959C11.5877 8.46892 11.4969 8.55971 11.3876 8.62282L6.64113 11.3634C6.53178 11.4266 6.40769 11.46 6.28136 11.46C6.15502 11.4601 6.03089 11.4269 5.92148 11.3637C5.81206 11.3006 5.72121 11.2097 5.65807 11.1003C5.59493 10.9909 5.56173 10.8667 5.56182 10.7404Z" fill="white"/>
                             </svg>
                             <b className={ styles.reproducirvideo } onClick={openModal}>{t('hero.boton_reproducir')}</b>
-                        </motion.div>
+                        </div>
                     </div>
                     </div>
                         <Modal
@@ -90,11 +90,11 @@ const Hero = () => {
                     
 
                     <div  ref={desktopRef} className={ styles.img }>
-                                <motion.img style={{ opacity, y: y4 }} id={styles.camion} alt="Camión" src={ camion }></motion.img>
-                                <motion.img style={{ opacity, y: y1 }} id={styles.pin} alt="Pin de ubicación" src={ pin }></motion.img>
-                                <motion.img style={{ opacity, x: x1 }} id={styles.nube1} alt="Nube" src={ nube1 }></motion.img>
-                                <motion.img style={{ opacity, x: x2 }} id={styles.nube2} alt="Nube" src={ nube2 }></motion.img>
-                                <motion.img style={{ opacity, y: y2 }} id={styles.nube3} alt="Nube" src={ nube3 }></motion.img>
+                                <img style={{ opacity, y: y4 }} id={styles.camion} alt="Camión" src={ camion }></img>
+                                <img style={{ opacity, y: y1 }} id={styles.pin} alt="Pin de ubicación" src={ pin }></img>
+                                <img style={{ opacity, x: x1 }} id={styles.nube1} alt="Nube" src={ nube1 }></img>
+                                <img style={{ opacity, x: x2 }} id={styles.nube2} alt="Nube" src={ nube2 }></img>
+                                <img style={{ opacity, y: y2 }} id={styles.nube3} alt="Nube" src={ nube3 }></img>
                     </div>
                 </div>
                 <svg className={ styles.curvaDesktop } xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1366 121" preserveAspectRatio='none' fill="none">
