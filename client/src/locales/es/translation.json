@@ -1,4 +1,7 @@
 {
+    "header" : {
+        "mensaje": "ESTRENO: Mira aquí el nuevo video de Vive Propósito"
+    },
     "hero": {
         "bajada_hero": "Llegar juntos a todos los rincones para refrescar momentos y abrir oportunidades.",
         "boton_reproducir": "Reproduce el video de la semana",

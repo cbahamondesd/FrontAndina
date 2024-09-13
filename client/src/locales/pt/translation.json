@@ -1,8 +1,11 @@
 {
+    "header" : {
+        "mensaje": "ESTREIA: Assista aqui ao novo vídeo do Vive Propósito"
+    },
     "hero": {
         "bajada_hero": "Reúna-se para todo canto para refrescar momentos e oportunidades abertas.",
         "boton_reproducir": "Reproduza o vídeo da semana",
-        "titimage":"tit_por_2.png"
+        "titimage":"tit_por2.png"
     },
     "propositos": {
         "creando_titulo": "Criando nosso propósito...",

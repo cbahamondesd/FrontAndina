@@ -39,6 +39,7 @@
     position: relative;
     transform: translateY(10%);
     min-height: 400px;
+    margin-top: 15rem;
 }
 
 .img img {

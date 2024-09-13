@@ -10,6 +10,7 @@ import banfoo from '../../assets/img/banderas_footer.jpg';
 
 const Header = () => {
     const { i18n } = useTranslation();
+    const { t } = useTranslation();
     const [activeButton, setActiveButton] = useState(1);
     
     const handleLanguageChange = (lng, index) => {
@@ -27,7 +28,7 @@ const Header = () => {
 
     return(
         <section>
-            <div className={ styles.loadbarragradiente }></div>
+            <div className={ styles.loadbarragradiente }><p className={ styles.msj }>{t('header.mensaje')}</p></div>
             <div ref={targetRef} className={ styles.headerContainer }>
                 <div className={ styles.head }>
                     <div className={ styles.logo }>

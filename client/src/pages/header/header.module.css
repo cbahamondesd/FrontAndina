@@ -82,7 +82,14 @@
 .loadbarragradiente {
     width: 100%;
     background-color: #e30008;
-    height: 0.5rem;
+    height: 2rem;
+}
+
+.loadbarragradiente p{
+    font-size: 1.3rem;
+    color: #f6f9fc;
+    text-align:left;
+    margin-left: 7rem;
 }
 
 @media (max-width: 768px) {
