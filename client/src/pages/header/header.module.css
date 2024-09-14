@@ -124,6 +124,14 @@
     }
 
     .loadbarragradiente {
-        height: 0.4rem;
+        height: 2.8rem;
+        display:block;
+    }
+
+    .loadbarragradiente p{
+        font-size: 1rem;
+        color: #f6f9fc;
+        text-align:left;
+        margin-left: 0.5rem;
     }
 }

@@ -114,7 +114,7 @@
 @media (max-width: 768px) {
     .rutasContainer{
         padding: 1rem 1.5rem 4.5rem 1.5rem;
-        gap: 2.5rem;
+        gap: 1rem;
     }
 
     .titulo {
@@ -122,21 +122,24 @@
         padding: 0rem 0rem 0rem 0rem;
     }
     .titulo1 {
-        flex-direction: column;
+        display: flex;
         align-items: flex-start;
+        gap: 0rem;
     }
 
     .titulo1 h1{
-        font-size: 2.1rem;
+        font-size: 1.5rem;
     }
     .titulo1 img{
-        height: 4.5rem;
+        width: 3rem;
+        height: auto;
     }
     .titulo h3{
         padding: 0;
         margin: 1rem 0;
         line-height: 1.8rem;
-        font-size: 1.3rem;
+        font-size: 1rem;
+        text-align: justify;
     }
     .cardsContainer{
         margin-top: 2rem;

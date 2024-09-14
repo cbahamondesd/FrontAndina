@@ -88,6 +88,7 @@
     }
     .titproposito{
         padding-left: 10%;
+        font-size: 1.2rem;
     }
     .cardcontainer{
         flex-direction: column;
@@ -105,5 +106,6 @@
     }
     .cardcontent p{
         font-size: 1rem;
+        text-align: justify;
     }
 }
