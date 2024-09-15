@@ -31,7 +31,7 @@ const Hero = () => {
     
     const { scrollYProgress } = useScroll({
         target: targetRef,
-        offset: ["start 20%", "end start"]
+        offset: ["center", "end start"]
     });
 
         const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
@@ -90,11 +90,11 @@ const Hero = () => {
                     
 
                     <div  ref={desktopRef} className={ styles.img }>
-                                <img style={{ opacity, y: y4 }} id={styles.camion} alt="Camión" src={ camion }></img>
-                                <img style={{ opacity, y: y1 }} id={styles.pin} alt="Pin de ubicación" src={ pin }></img>
-                                <img style={{ opacity, x: x1 }} id={styles.nube1} alt="Nube" src={ nube1 }></img>
-                                <img style={{ opacity, x: x2 }} id={styles.nube2} alt="Nube" src={ nube2 }></img>
-                                <img style={{ opacity, y: y2 }} id={styles.nube3} alt="Nube" src={ nube3 }></img>
+                                <motion.img style={{ opacity, y: y4 }} id={styles.camion} alt="Camión" src={ camion }></motion.img>
+                                <motion.img style={{ opacity, y: y1 }} id={styles.pin} alt="Pin de ubicación" src={ pin }></motion.img>
+                                <motion.img style={{ opacity, x: x1 }} id={styles.nube1} alt="Nube" src={ nube1 }></motion.img>
+                                <motion.img style={{ opacity, x: x2 }} id={styles.nube2} alt="Nube" src={ nube2 }></motion.img>
+                                <motion.img style={{ opacity, y: y2 }} id={styles.nube3} alt="Nube" src={ nube3 }></motion.img>
                     </div>
                 </div>
                 <svg className={ styles.curvaDesktop } xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1366 121" preserveAspectRatio='none' fill="none">
