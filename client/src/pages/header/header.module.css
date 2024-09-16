@@ -118,20 +118,21 @@
     }
     .btnidioma {
         width: 5.5rem;
+        margin-right: 0.5rem;
     }
     .btnBase {
         width: 2.5rem;
     }
 
     .loadbarragradiente {
-        height: 2.8rem;
+        height: 3rem;
         display:block;
     }
 
     .loadbarragradiente p{
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #f6f9fc;
         text-align:left;
-        margin-left: 0.5rem;
+        margin-left: 1rem;
     }
 }
