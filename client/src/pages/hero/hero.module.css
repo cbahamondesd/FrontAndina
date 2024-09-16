@@ -166,7 +166,7 @@
     }
     .img img {
         top: -10%;
-        right: 0;
+        right: 10%;
         width: 100%;
         scale: 1;
         transform: translateX(-5%);
@@ -199,7 +199,7 @@
         z-index: 5000;
     }
     .buttonprimarydefault{
-        width: 100%;
+        width: 98%;
         height: 2.5rem;
     }
     .reproducirvideo {
