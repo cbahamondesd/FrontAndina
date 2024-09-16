@@ -5,6 +5,7 @@ import {
     motion, 
     useScroll,
     useTransform,
+    useMotionValueEvent
 } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import Peirano from '../../assets/clientes/Peirano.jpg';
@@ -21,6 +22,11 @@ const Clientes = () => {
     const { scrollYProgress } = useScroll({
         target: targetRef,
         offset: ["start end", "start 80%"]
+    });
+
+    useMotionValueEvent(scrollYProgress, "change",
+    (latest) => {
+        console.log(latest)
     });
 
     const y1 = useTransform(scrollYProgress, [0, 1], [50, 0]);

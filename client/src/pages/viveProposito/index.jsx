@@ -12,7 +12,7 @@ import mundo from '../../assets/img/mundo.png';
 
 const ViveProposito = () => {
     const { t } = useTranslation();
-    const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
+    const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
     const mobileRef1 = useRef(null);
     const desktopRef1 = useRef(null);

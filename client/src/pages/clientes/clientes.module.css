@@ -187,6 +187,7 @@ h3{
         height: inherit;
         border-radius: 50%;
         position: absolute;
+        object-position: 5% 25%;
     }
     .btn{   
         width: 100%;

@@ -220,6 +220,12 @@ button .textoBtn{
 }
 
 @media (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+        gap: 0;
+        padding: 1rem 0;
+    }
+
     section h1{
         font-size: 1.5rem;
     }
@@ -244,15 +250,11 @@ button .textoBtn{
         gap: 0rem;
     }
 
-    .hero{
-        flex-direction: column;
-        gap: 0;
-        padding: 1rem 1rem 1rem 1rem;
-    }
     .texto{
         justify-content: flex-start;
-        width: 100%;
-        gap: 1rem;
+        width: 85%;
+        padding: 0 1rem 0 1.5rem;
+        max-width: 100%;
     }
 
     .texto p{
@@ -268,12 +270,13 @@ button .textoBtn{
         flex-shrink: 0;
         left: 45%;
         transform: translateX(-50%);
-        top: 32%;
+        top: 40%;
         z-index: 1;
     }
     .banderas{
         width: 19rem;
         height: auto;
+        top: -12%;
         left: 18%;
 
     }
@@ -281,21 +284,21 @@ button .textoBtn{
         width: 5rem;
         height: auto;
         left: 55%;
-        top: 35%;
+        top: 28%;
     }
     .pinChico{
         width: 3rem;
         height: auto;
-        top: 48%;
-        left: 63%;
+        top: 42%;
+        left: 65%;
     }
     .camion{
         width: 15rem;
         height: auto;
-        left: 38%;
-        top: 43%;
+        left: 25%;
+        top: 48%;
         transform: translateX(-5%);
-        bottom: 0%;
+
     }
     .btn{   
         width: 100%;
