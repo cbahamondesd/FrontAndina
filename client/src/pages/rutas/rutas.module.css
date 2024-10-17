@@ -37,8 +37,9 @@
     padding-left: 5.25rem;
     margin-bottom: 1.25rem;
     color: #656565;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
+    text-align: justify;
 }
 
 .cardsContainer{
