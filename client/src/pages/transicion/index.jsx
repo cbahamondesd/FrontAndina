@@ -7,7 +7,7 @@ import {
 } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import styles from './transicion.module.css';
-import bebida from '../../assets/img/bebida.png';
+import bebida from '../../assets/img/bebida_media.png';
 import nube from '../../assets/img/nube.png';
 
 const Transicion = () => {

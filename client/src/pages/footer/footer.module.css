@@ -77,7 +77,6 @@
 .imagen {
     max-width: 100%;
     position: absolute;
-    left: -5%;
     overflow: hidden;
 }
 

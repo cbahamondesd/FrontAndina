@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Header from './pages/header';
 import Hero from './pages/hero';
 import Propositos from './pages/propositos';
@@ -11,12 +11,17 @@ import Clientes from './pages/clientes'
 import Footer from './pages/footer';
 
 function App() {
+  const vivePropositoRef = useRef(null);
+
+  const scrollToViveProposito = () => {
+    vivePropositoRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <div style={{ width: '100%', height: '100%' }}>
-      <Header/>
+      <Header scrollToViveProposito={scrollToViveProposito} />
       <Hero/>
-      <ViveProposito />
+      <ViveProposito ref={vivePropositoRef} />
       <Propositos/>
       <Transicion />
       <NuestroProposito />

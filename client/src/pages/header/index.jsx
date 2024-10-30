@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 import styles from './header.module.css';
 import banfoo from '../../assets/img/banderas_footer.jpg';
 
-const Header = () => {
+const Header  = ({ scrollToViveProposito }) => {
     const { i18n } = useTranslation();
     const { t } = useTranslation();
     const [activeButton, setActiveButton] = useState(1);
@@ -28,7 +28,11 @@ const Header = () => {
 
     return(
         <section>
-            <div className={ styles.loadbarragradiente }><p className={ styles.msj }>{t('header.mensaje')}</p></div>
+            <div className={ styles.loadbarragradiente }>
+                <p className={ styles.msj }>{t('header.mensaje')}</p>
+                <p onClick={scrollToViveProposito} className={ styles.msj } style={{ cursor: 'pointer', color: 'white' }}>{t('header.mensaje1')}</p>
+                <p className={ styles.msj }>{t('header.mensaje2')}</p>
+            </div>
             <div ref={targetRef} className={ styles.headerContainer }>
                 <div className={ styles.head }>
                     <div className={ styles.logo }>

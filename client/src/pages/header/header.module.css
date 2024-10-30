@@ -81,15 +81,17 @@
 }
 .loadbarragradiente {
     width: 100%;
+    height: 2.5rem;
     background-color: #e30008;
-    height: 2rem;
+    display: flex;           
+    justify-content: center; 
+    align-items: center;    
 }
 
 .loadbarragradiente p{
     font-size: 1.3rem;
     color: #f6f9fc;
-    text-align:left;
-    text-align: center;
+    margin: 3px;   
 }
 
 @media (max-width: 768px) {
@@ -124,14 +126,16 @@
     }
 
     .loadbarragradiente {
+        background-color: #e30008;
         height: 2.8rem;
-        display:block;
+        display: flex;           
+        justify-content: center; 
+        align-items: center; 
     }
 
     .loadbarragradiente p{
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: #f6f9fc;
-        text-align:left;
-        margin-left: 0.5rem;
+        margin: 0.9px;   
     }
 }

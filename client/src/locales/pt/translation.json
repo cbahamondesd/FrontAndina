@@ -1,6 +1,8 @@
 {
     "header" : {
-        "mensaje": "ESTREIA: Assista aqui ao novo vídeo do Vive Propósito"
+        "mensaje": "ESTREIA: Assista",
+        "mensaje1": " aqui ",
+        "mensaje2": "ao novo vídeo do Vive Propósito"
     },
     "hero": {
         "bajada_hero": "Reúna-se para todo canto para refrescar momentos e oportunidades abertas.",
@@ -32,6 +34,7 @@
         "bajada_vivo": "Nosso Propósito é o guia que orienta nossas decisões, por que fazemos o que fazemos. Convidamos você a rever como o Propósito da Andina se conecta com os propósitos pessoais de quem realiza nosso trabalho diário e com as diferentes áreas de nossa organização.",
         "cardOne_titulo": "Paula Podestá | Industriais | Chile",
         "cardOne": "A Fábrica da Felicidade é um dos ícones do nosso Propósito, vamos acompanhar a Paula para explorar o seu propósito e o das nossas funções industriais.",
+        "enlace": "https://player.vimeo.com/video/1015486161?h=b05f932b16&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         "cardTwo_titulo": "Gizele de Souza & Rosilene Cupertino | TI | Brasil",
         "cardTwo": "Através da tecnologia conseguimos nos conectar de forma mais ágil e precisa com todos os nossos stakeholders. Junto com Gizele e Rosilene exploramos a conexão direta que nosso Propósito tem com a tecnologia e nossas áreas de TI.",
         "cardThree_titulo": "César Britos e Nicolas Solis | Logística | Paraguai",

@@ -108,12 +108,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
-/*
-    useMotionValueEvent(scrollYProgress, "change",
-        (latest) => {
-            console.log(latest)
-        });
-*/
