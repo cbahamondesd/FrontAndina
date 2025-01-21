@@ -30,7 +30,11 @@ const Header  = ({ scrollToViveProposito }) => {
         <section>
             <div className={ styles.loadbarragradiente }>
                 <p className={ styles.msj }>{t('header.mensaje')}</p>
-                <p onClick={scrollToViveProposito} className={ styles.msj } style={{ cursor: 'pointer', color: 'white' }}>{t('header.mensaje1')}</p>
+                <p onClick={scrollToViveProposito} className={ styles.msj } style={{ cursor: 'pointer', color: 'white' }}>
+                    <b>
+                        {t('header.mensaje1')}
+                    </b>
+                </p>
                 <p className={ styles.msj }>{t('header.mensaje2')}</p>
             </div>
             <div ref={targetRef} className={ styles.headerContainer }>
